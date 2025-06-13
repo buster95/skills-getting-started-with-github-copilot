@@ -142,3 +142,38 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+/* --- Add pretty participants section styles --- */
+.participants-section {
+  margin-top: 14px;
+  padding: 10px 12px;
+  background: #eef2fa;
+  border-radius: 6px;
+  border: 1px solid #dde3f3;
+}
+
+.participants-title {
+  font-weight: bold;
+  color: #3949ab;
+  margin-bottom: 6px;
+  font-size: 1.05em;
+  letter-spacing: 0.5px;
+}
+
+.participants-list {
+  list-style-type: disc;
+  padding-left: 22px;
+  margin: 0;
+}
+
+.participant-item {
+  color: #333;
+  margin-bottom: 2px;
+  font-size: 0.98em;
+}
+
+.no-participants {
+  color: #888;
+  font-style: italic;
+  font-size: 0.97em;
+}
